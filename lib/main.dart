@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Flutter layout demo';
+    const String appTitle = 'Lugares Turisticos';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
@@ -17,22 +17,6 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
           child: Column(
             children: [
-              ImageSection(
-                image: 'images/lake.jpg',
-                ),
-              TitleSection(name: "Oeschinen Lake Campground",
-               location: "Kandersteg, Switzerland"
-               ),
-               ButtonSection(),TextSection(
-description:
-'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-'Bernese Alps. Situated 1,578 meters above sea level, it '
-'is one of the larger Alpine Lakes. A gondola ride from '
-'Kandersteg, followed by a half-hour walk through pastures '
-'and pine forest, leads you to the lake, which warms to 20 '
-'degrees Celsius in the summer. Activities enjoyed here '
-'include rowing, and riding the summer toboggan run.',
-),
  ImageSection(
                 image: 'images/panecillo.jpg',
                 ),
@@ -41,13 +25,13 @@ description:
                ),
                ButtonSection(),TextSection(
 description:
-'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-'Bernese Alps. Situated 1,578 meters above sea level, it '
-'is one of the larger Alpine Lakes. A gondola ride from '
-'Kandersteg, followed by a half-hour walk through pastures '
-'and pine forest, leads you to the lake, which warms to 20 '
-'degrees Celsius in the summer. Activities enjoyed here '
-'include rowing, and riding the summer toboggan run.',
+'El Panecillo es una elevación natural de 3.000 metros '
+'sobre el nivel del mar, enclavada en el corazón mismo de la '
+'ciudad de Quito. Es el sitio más visitado de la ciudad. '
+'Es el más importante mirador natural de la ciudad de Quito, '
+'declarada Patrimonio Cultural de la Humanidad. Junto a la Virgen '
+'del Panecillo, podrás apreciar el Centro Histórico de la Carita de '
+'Dios ¡No puedes dejar de visitar este lugar!',
 ),
   ImageSection(
                 image: 'images/ronda.jpg',
@@ -57,13 +41,13 @@ description:
                ),
                ButtonSection(),TextSection(
 description:
-'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-'Bernese Alps. Situated 1,578 meters above sea level, it '
-'is one of the larger Alpine Lakes. A gondola ride from '
-'Kandersteg, followed by a half-hour walk through pastures '
-'and pine forest, leads you to the lake, which warms to 20 '
-'degrees Celsius in the summer. Activities enjoyed here '
-'include rowing, and riding the summer toboggan run.',
+'La Ronda es una calle peatonal que parece un gran bazar. '
+'El turista puede adquirir artesanía de calidad: '
+'sombreros hechos a mano, bisutería fina, ropa en general, '
+'cuadros de renombrados artistas y hermosas '
+'piezas en cerámica para todos los gustos y bolsillos.'
+'Ademas, es una de las calles más antiguas de la ciudad,'
+'tanto que algunos historiadores aseguran que data del tiempo de los incas.',
 ),
    ImageSection(
                 image: 'images/francisco.jpg',
@@ -73,13 +57,13 @@ description:
                ),
                ButtonSection(),TextSection(
 description:
-'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-'Bernese Alps. Situated 1,578 meters above sea level, it '
-'is one of the larger Alpine Lakes. A gondola ride from '
-'Kandersteg, followed by a half-hour walk through pastures '
-'and pine forest, leads you to the lake, which warms to 20 '
-'degrees Celsius in the summer. Activities enjoyed here '
-'include rowing, and riding the summer toboggan run.',
+'La Iglesia de San Francisco es una basílica católica '
+'que se levanta en medio del centro histórico de Quito, '
+'frente a la plaza del mismo nombre. La estructura es el '
+'conjunto arquitectónico de mayor dimensión dentro de '
+'los centros históricos de toda América,​ y por ello es '
+'conocido como "el Escorial del Nuevo Mundo". San '
+'Francisco es considerada una joya de la arquitectura continental.',
 ),
            ImageSection(
                 image: 'images/plaza.jpg',
@@ -89,27 +73,26 @@ description:
                ),
                ButtonSection(),TextSection(
 description:
-'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-'Bernese Alps. Situated 1,578 meters above sea level, it '
-'is one of the larger Alpine Lakes. A gondola ride from '
-'Kandersteg, followed by a half-hour walk through pastures '
-'and pine forest, leads you to the lake, which warms to 20 '
-'degrees Celsius in the summer. Activities enjoyed here '
-'include rowing, and riding the summer toboggan run.',
+'La plaza de la Independencia, también conocida como '
+'plaza Grande, es la principal plaza de la ciudad de Quito,'
+'ubicada en el casco antiguo de la ciudad. Se trata de la '
+'plaza mayor de la capital, centro político e histórico del '
+'Ecuador, y asiento simbólico del presidente del Ecuador.'
 ),
-               
+             ImageSection(
+                image: 'images/mitad.jpg',
+                ),   
               TitleSection(name: "Mitad del Mundo",
                location: "Quito,Ecuador"
                ),
                ButtonSection(),TextSection(
 description:
-'Lake Oeschinen lies at the foot of the Blüemlisalp in the '
-'Bernese Alps. Situated 1,578 meters above sea level, it '
-'is one of the larger Alpine Lakes. A gondola ride from '
-'Kandersteg, followed by a half-hour walk through pastures '
-'and pine forest, leads you to the lake, which warms to 20 '
-'degrees Celsius in the summer. Activities enjoyed here '
-'include rowing, and riding the summer toboggan run.',
+'La Ciudad Mitad del Mundo es un complejo turístico'
+'y cultural propiedad de la prefectura de la provincia de'
+'Pichincha. Está situado en la parroquia de San '
+'Antonio del Distrito Metropolitano de Quito, al norte de '
+'la ciudad de Quito. '
+
 ),
                
             ],
